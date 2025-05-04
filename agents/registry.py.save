@@ -1,0 +1,55 @@
+"""
+Registry of specialist agents for options trading strategies.
+This module maps strategy names to their specialist implementations and registers them for discovery.
+"""
+from .specialists.base_specialist import BaseSpecialist
+from .specialists.iron_condor import IronCondorSpecialist
+from .specialists.bull_put import BullPutSpecialist
+import sys
+import os
+# Add the project root to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from constants import FOCUS_STRATEGIES
+# Register all specialist agents here
+SPECIALIST_REGISTRY = {
+    "IRON CONDOR": IronCondorSpecialist,
+    "BULL PUT": BullPutSpecialist,
+    # Add more specialists here as they are implemented
+}
+
+def get_specialist(strategy_name):
+    """
+    Get the specialist agent class for the specified strategy
+
+    Args:
+        strategy_name (str): Name of the strategy
+
+    Returns:
+        class: The specialist agent class for the strategy
+
+    Raises:
+        ValueError: If the strategy does not have a registered specialist
+    """
+    if strategy_name in SPECIALIST_REGISTRY:
+        return SPECIALIST_REGISTRY[strategy_name]
+    else:
+        raise ValueError(f"No specialist registered for strategy: {strategy_name}")
+
+def register_specialist(strategy_name, specialist_class):
+    """
+    Register a new specialist agent
+
+    Args:
+        strategy_name (str): Name of the strategy
+        specialist_class (class): The specialist agent class
+    """
+    SPECIALIST_REGISTRY[strategy_name] = specialist_class
+
+def get_available_strategies():
+    """
+    Get the list of strategies with registered specialists
+
+    Returns:
+        list: Names of available strategies
+    """
+    return list(SPECIALIST_REGISTRY.keys())

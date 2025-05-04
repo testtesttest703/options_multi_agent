@@ -1,0 +1,87 @@
+2025-05-04 18:30:36,365 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:36,365 - DebugTrace - INFO - STEP: Importing modules
+2025-05-04 18:30:36,365 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:36,369 - DebugTrace - INFO - Imported data_loader
+2025-05-04 18:30:39,235 - DebugTrace - INFO - Imported OptionsBaseEnv
+2025-05-04 18:30:41,507 - DebugTrace - INFO - Imported SPECIALIST_REGISTRY
+2025-05-04 18:30:41,507 - DebugTrace - INFO - Modules imported in 5.14 seconds
+2025-05-04 18:30:41,507 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:41,507 - DebugTrace - INFO - STEP: Loading data
+2025-05-04 18:30:41,507 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:41,507 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 18:30:41,507 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 18:30:41,508 - utils.data_loader - INFO - Memory usage before loading: 367.72 MB
+2025-05-04 18:30:41,509 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 18:30:41,509 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 18:30:41,545 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 18:30:41,585 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 18:30:41,627 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 18:30:41,665 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 18:30:41,701 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 18:30:41,742 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 18:30:41,778 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 18:30:41,816 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 18:30:41,852 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 18:30:41,891 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 18:30:41,926 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 18:30:41,972 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 18:30:42,011 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 18:30:42,017 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 18:30:42,019 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 18:30:43,901 - utils.data_loader - INFO - JSON parsing completed in 1.88 seconds
+2025-05-04 18:30:43,901 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 18:30:43,902 - utils.data_loader - INFO - Memory usage after loading: 950.23 MB (increase: 582.50 MB)
+2025-05-04 18:30:43,903 - utils.data_loader - INFO - Data loaded successfully in 2.40 seconds
+2025-05-04 18:30:43,903 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 18:30:44,189 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 18:30:44,198 - DebugTrace - INFO - Data loaded in 2.69 seconds
+2025-05-04 18:30:44,198 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:44,198 - DebugTrace - INFO - STEP: Initializing Ray
+2025-05-04 18:30:44,198 - DebugTrace - INFO - ========================================
+2025-05-04 18:30:44,220 - filelock - DEBUG - Attempting to acquire lock 275943620247664 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/node_ip_address.json.lock
+2025-05-04 18:30:44,220 - filelock - DEBUG - Lock 275943620247664 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/node_ip_address.json.lock
+2025-05-04 18:30:44,221 - filelock - DEBUG - Attempting to release lock 275943620247664 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/node_ip_address.json.lock
+2025-05-04 18:30:44,221 - filelock - DEBUG - Lock 275943620247664 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/node_ip_address.json.lock
+2025-05-04 18:30:44,232 - filelock - DEBUG - Attempting to acquire lock 275943620247904 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,232 - filelock - DEBUG - Lock 275943620247904 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,233 - filelock - DEBUG - Attempting to release lock 275943620247904 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,233 - filelock - DEBUG - Lock 275943620247904 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,233 - filelock - DEBUG - Attempting to acquire lock 275943620247664 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,233 - filelock - DEBUG - Lock 275943620247664 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,234 - filelock - DEBUG - Attempting to release lock 275943620247664 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,234 - filelock - DEBUG - Lock 275943620247664 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,234 - filelock - DEBUG - Attempting to acquire lock 275943620248432 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,234 - filelock - DEBUG - Lock 275943620248432 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,235 - filelock - DEBUG - Attempting to release lock 275943620248432 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,235 - filelock - DEBUG - Lock 275943620248432 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,235 - filelock - DEBUG - Attempting to acquire lock 275943620251360 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,235 - filelock - DEBUG - Lock 275943620251360 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,236 - filelock - DEBUG - Attempting to release lock 275943620251360 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,236 - filelock - DEBUG - Lock 275943620251360 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,236 - filelock - DEBUG - Attempting to acquire lock 275943620252416 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,236 - filelock - DEBUG - Lock 275943620252416 acquired on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,237 - filelock - DEBUG - Attempting to release lock 275943620252416 on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:44,237 - filelock - DEBUG - Lock 275943620252416 released on /tmp/ray/session_2025-05-04_18-30-44_219342_1896/ports_by_node.json.lock
+2025-05-04 18:30:46,090 - DebugTrace - ERROR - Error during execution: Attempting to cap object store memory usage at 70122700 bytes, but the minimum allowed is 78643200 bytes.
+2025-05-04 18:30:46,097 - DebugTrace - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/options_multi_agent/./debug_trace.py", line 53, in main
+    ray.init(local_mode=True)  # Use local mode for debugging
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/ray/_private/client_mode_hook.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/ray/_private/worker.py", line 1780, in init
+    _global_node = ray._private.node.Node(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/ray/_private/node.py", line 365, in __init__
+    self.start_ray_processes()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/ray/_private/node.py", line 1500, in start_ray_processes
+    ) = ray._private.services.determine_plasma_store_config(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/ray/_private/services.py", line 2198, in determine_plasma_store_config
+    raise ValueError(
+ValueError: Attempting to cap object store memory usage at 70122700 bytes, but the minimum allowed is 78643200 bytes.
+

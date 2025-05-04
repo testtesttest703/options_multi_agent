@@ -1,0 +1,481 @@
+2025-05-02 12:00:21,493 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-02 12:00:21,493 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-02 12:58:39,708 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-02 12:58:39,709 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-02 12:58:39,709 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-02 12:58:39,712 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-02 12:58:39,713 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-02 12:58:39,766 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-02 12:58:39,829 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-02 12:58:39,879 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-02 12:58:39,924 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-02 12:58:39,964 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-02 12:58:40,012 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-02 12:58:40,052 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-02 12:58:40,092 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-02 12:58:40,132 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-02 12:58:40,175 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-02 12:58:40,212 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-02 12:58:40,254 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-02 12:58:40,293 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-02 12:58:40,300 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 16:17:18,737 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 16:17:22,384 - OptionsMultiAgent - INFO - Ray initialization complete. Available resources: {'memory': 552374682.0, 'CPU': 2.0, 'object_store_memory': 236732006.0, 'node:172.31.31.176': 1.0, 'node:__internal_head__': 1.0}
+2025-05-04 16:17:22,386 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 16:17:22,386 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 16:17:22,386 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 16:17:22,389 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 16:17:22,390 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 16:17:22,448 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 16:17:22,513 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 16:17:22,586 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 16:17:22,660 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 16:17:22,712 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 16:17:22,766 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 16:17:22,812 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 16:17:22,857 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 16:17:22,900 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 16:17:22,943 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 16:17:22,980 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 16:17:23,032 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 16:17:23,073 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 16:17:23,080 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 16:28:24,409 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 16:28:28,014 - OptionsMultiAgent - INFO - Ray initialization complete. Available resources: {'memory': 538649396.0, 'CPU': 2.0, 'object_store_memory': 230849740.0, 'node:172.31.31.176': 1.0, 'node:__internal_head__': 1.0}
+2025-05-04 16:28:28,017 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 16:28:28,017 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 16:28:28,018 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 16:28:28,019 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 16:28:28,022 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 16:28:28,092 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 16:28:28,147 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 16:28:28,192 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 16:28:28,237 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 16:28:28,276 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 16:28:28,323 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 16:28:28,361 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 16:28:28,404 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 16:28:28,447 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 16:28:28,486 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 16:28:28,525 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 16:28:28,572 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 16:28:28,612 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 16:28:28,619 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 18:47:25,441 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 18:47:25,441 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 18:47:25,441 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 18:47:25,441 - utils.data_loader - INFO - Memory usage before loading: 365.49 MB
+2025-05-04 18:47:25,443 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 18:47:25,443 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 18:47:25,482 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 18:47:25,524 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 18:47:25,568 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 18:47:25,608 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 18:47:25,646 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 18:47:25,689 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 18:47:25,726 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 18:47:25,766 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 18:47:25,802 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 18:47:25,841 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 18:47:25,877 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 18:47:25,924 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 18:47:25,960 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 18:47:25,967 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 18:47:25,968 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 18:47:27,828 - utils.data_loader - INFO - JSON parsing completed in 1.86 seconds
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 18:47:27,829 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 18:47:27,830 - utils.data_loader - INFO - Memory usage after loading: 963.70 MB (increase: 598.21 MB)
+2025-05-04 18:47:27,830 - utils.data_loader - INFO - Data loaded successfully in 2.39 seconds
+2025-05-04 18:47:27,830 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 18:47:28,124 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 18:47:28,133 - OptionsMultiAgent - INFO - Data loading completed in 2.69 seconds
+2025-05-04 18:47:28,134 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 18:47:28,134 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 18:47:28,136 - OptionsMultiAgent - INFO - Memory usage: 831.85 MB
+2025-05-04 18:47:28,136 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 18:47:28,136 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 18:47:28,136 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 18:47:28,136 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 18:47:28,419 - OptionsMultiAgent - INFO - Memory usage: 831.85 MB
+2025-05-04 18:47:28,420 - OptionsMultiAgent - INFO - Initializing Ray with memory constraints...
+2025-05-04 21:44:25,821 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 21:44:25,822 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 21:44:25,822 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 21:44:25,823 - utils.data_loader - INFO - Memory usage before loading: 373.11 MB
+2025-05-04 21:44:25,824 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 21:44:25,824 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 21:44:25,863 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 21:44:25,906 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 21:44:25,950 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 21:44:25,993 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 21:44:26,034 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 21:44:26,080 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 21:44:26,120 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 21:44:26,163 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 21:44:26,203 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 21:44:26,246 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 21:44:26,286 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 21:44:26,335 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 21:44:26,374 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 21:44:26,381 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 21:44:26,383 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 21:44:28,228 - utils.data_loader - INFO - JSON parsing completed in 1.85 seconds
+2025-05-04 21:44:28,228 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Memory usage after loading: 1051.20 MB (increase: 678.10 MB)
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Data loaded successfully in 2.41 seconds
+2025-05-04 21:44:28,229 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 21:44:28,506 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 21:44:28,514 - OptionsMultiAgent - INFO - Data loading completed in 2.69 seconds
+2025-05-04 21:44:28,514 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 21:44:28,514 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 21:44:28,515 - OptionsMultiAgent - INFO - Memory usage: 919.78 MB
+2025-05-04 21:44:28,515 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 21:44:28,515 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 21:44:28,515 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 21:44:28,515 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 21:44:28,793 - OptionsMultiAgent - INFO - Memory usage: 919.78 MB
+2025-05-04 21:44:28,793 - OptionsMultiAgent - INFO - Initializing Ray with memory constraints...
+2025-05-04 21:44:31,979 - OptionsMultiAgent - INFO - Ray initialization complete. Available resources: {'memory': 629145600.0, 'CPU': 4.0, 'object_store_memory': 209715200.0, 'node:172.31.31.176': 1.0, 'node:__internal_head__': 1.0}
+2025-05-04 21:44:31,979 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 21:44:31,979 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 21:44:31,979 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 21:44:31,979 - OptionsMultiAgent - INFO - Memory usage: 937.28 MB
+2025-05-04 21:44:31,980 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 21:44:31,980 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 21:44:31,980 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 21:44:31,980 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 21:51:48,194 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 21:51:48,194 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 21:51:48,194 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 21:51:48,195 - utils.data_loader - INFO - Memory usage before loading: 374.46 MB
+2025-05-04 21:51:48,195 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 21:51:48,195 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 21:51:48,205 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 21:51:48,219 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 21:51:48,236 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 21:51:48,250 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 21:51:48,260 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 21:51:48,277 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 21:51:48,286 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 21:51:48,301 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 21:51:48,310 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 21:51:48,325 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 21:51:48,334 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 21:51:48,355 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 21:51:48,364 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 21:51:48,366 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 21:51:48,368 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 21:51:50,221 - utils.data_loader - INFO - JSON parsing completed in 1.85 seconds
+2025-05-04 21:51:50,221 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 21:51:50,221 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Memory usage after loading: 1052.61 MB (increase: 678.16 MB)
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Data loaded successfully in 2.03 seconds
+2025-05-04 21:51:50,222 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 21:51:50,501 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 21:51:50,508 - OptionsMultiAgent - INFO - Data loading completed in 2.31 seconds
+2025-05-04 21:51:50,508 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 21:51:50,508 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 21:51:50,509 - OptionsMultiAgent - INFO - Memory usage: 921.18 MB
+2025-05-04 21:51:50,509 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 21:51:50,509 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 21:51:50,509 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 21:51:50,509 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 21:51:50,791 - OptionsMultiAgent - INFO - Memory usage: 921.18 MB
+2025-05-04 21:51:50,791 - OptionsMultiAgent - INFO - Initializing Ray with memory constraints...
+2025-05-04 21:51:52,671 - OptionsMultiAgent - INFO - Ray initialization complete. Available resources: {'memory': 629145600.0, 'CPU': 4.0, 'object_store_memory': 209715200.0, 'node:172.31.31.176': 1.0, 'node:__internal_head__': 1.0}
+2025-05-04 21:51:52,671 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Memory usage: 938.43 MB
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 21:51:52,672 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 22:21:45,734 - OptionsMultiAgent - INFO - Cleaning up old Ray sessions...
+2025-05-04 22:21:45,734 - OptionsMultiAgent - INFO - Disk space check: 12.33 GB free of 19.21 GB total
+2025-05-04 22:21:45,734 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 22:21:45,735 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 22:21:45,735 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 22:21:45,735 - utils.data_loader - INFO - Memory usage before loading: 374.48 MB
+2025-05-04 22:21:45,735 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 22:21:45,735 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 22:21:45,745 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 22:21:45,759 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 22:21:45,775 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 22:21:45,790 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 22:21:45,799 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 22:21:45,816 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 22:21:45,826 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 22:21:45,840 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 22:21:45,849 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 22:21:45,863 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 22:21:45,873 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 22:21:45,894 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 22:21:45,903 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 22:21:45,905 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 22:21:45,907 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 22:21:47,758 - utils.data_loader - INFO - JSON parsing completed in 1.85 seconds
+2025-05-04 22:21:47,758 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Memory usage after loading: 1052.59 MB (increase: 678.11 MB)
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Data loaded successfully in 2.02 seconds
+2025-05-04 22:21:47,759 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 22:21:48,045 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 22:21:48,053 - OptionsMultiAgent - INFO - Data loading completed in 2.32 seconds
+2025-05-04 22:21:48,053 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 22:21:48,053 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 22:21:48,054 - OptionsMultiAgent - INFO - Memory usage: 921.16 MB
+2025-05-04 22:21:48,054 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 22:21:48,054 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:21:48,054 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 22:21:48,054 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 22:21:48,342 - OptionsMultiAgent - INFO - Memory usage: 921.16 MB
+2025-05-04 22:21:48,342 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 22:21:48,663 - OptionsMultiAgent - ERROR - Ray initialization failed: Cannot include dashboard with missing packages.
+2025-05-04 22:21:48,663 - OptionsMultiAgent - INFO - Trying with backup configuration...
+2025-05-04 22:21:50,174 - OptionsMultiAgent - INFO - Ray initialized with backup configuration
+2025-05-04 22:21:50,175 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 22:21:50,175 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 22:21:50,175 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 22:21:50,175 - OptionsMultiAgent - INFO - Memory usage: 939.16 MB
+2025-05-04 22:21:50,175 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 22:21:50,176 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 22:21:50,176 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 22:21:50,176 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 22:21:50,177 - OptionsMultiAgent - INFO - Config for IRON CONDOR specialist created successfully
+2025-05-04 22:21:50,177 - OptionsMultiAgent - INFO - Creating environment config for BULL PUT specialist...
+2025-05-04 22:21:50,177 - OptionsMultiAgent - INFO - Creating PPO config for BULL PUT specialist...
+2025-05-04 22:21:50,178 - OptionsMultiAgent - INFO - Config for BULL PUT specialist created successfully
+2025-05-04 22:21:50,178 - OptionsMultiAgent - INFO - Training IRON CONDOR specialist...
+2025-05-04 22:21:50,178 - OptionsMultiAgent - INFO - Building trainer for IRON CONDOR...
+2025-05-04 22:32:44,297 - OptionsMultiAgent - INFO - Cleaning up old Ray sessions...
+2025-05-04 22:32:44,297 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-21-48_673597_2399
+2025-05-04 22:32:44,298 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-21-48_357058_2399
+2025-05-04 22:32:44,299 - OptionsMultiAgent - INFO - Disk space check: 12.24 GB free of 19.21 GB total
+2025-05-04 22:32:44,299 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 22:32:44,299 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 22:32:44,299 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 22:32:44,300 - utils.data_loader - INFO - Memory usage before loading: 375.04 MB
+2025-05-04 22:32:44,300 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 22:32:44,300 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 22:32:44,310 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 22:32:44,324 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 22:32:44,341 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 22:32:44,355 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 22:32:44,364 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 22:32:44,381 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 22:32:44,390 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 22:32:44,404 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 22:32:44,413 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 22:32:44,427 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 22:32:44,436 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 22:32:44,457 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 22:32:44,466 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 22:32:44,468 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 22:32:44,470 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 22:32:46,353 - utils.data_loader - INFO - JSON parsing completed in 1.88 seconds
+2025-05-04 22:32:46,353 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 22:32:46,354 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 22:32:46,354 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 22:32:46,354 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:32:46,354 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 22:32:46,355 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 22:32:46,355 - utils.data_loader - INFO - Memory usage after loading: 1052.84 MB (increase: 677.80 MB)
+2025-05-04 22:32:46,355 - utils.data_loader - INFO - Data loaded successfully in 2.06 seconds
+2025-05-04 22:32:46,355 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 22:32:46,634 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 22:32:46,642 - OptionsMultiAgent - INFO - Data loading completed in 2.34 seconds
+2025-05-04 22:32:46,642 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 22:32:46,642 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 22:32:46,642 - OptionsMultiAgent - INFO - Memory usage: 921.33 MB
+2025-05-04 22:32:46,643 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 22:32:46,643 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:32:46,643 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 22:32:46,643 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 22:32:46,927 - OptionsMultiAgent - INFO - Memory usage: 921.33 MB
+2025-05-04 22:32:46,927 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 22:32:47,245 - OptionsMultiAgent - ERROR - Ray initialization failed: Cannot include dashboard with missing packages.
+2025-05-04 22:32:47,245 - OptionsMultiAgent - INFO - Trying with backup configuration...
+2025-05-04 22:32:48,921 - OptionsMultiAgent - INFO - Ray initialized with backup configuration
+2025-05-04 22:32:48,921 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 22:32:48,921 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Memory usage: 939.21 MB
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 22:32:48,922 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Config for IRON CONDOR specialist created successfully
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Creating environment config for BULL PUT specialist...
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Creating PPO config for BULL PUT specialist...
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Config for BULL PUT specialist created successfully
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Training IRON CONDOR specialist...
+2025-05-04 22:32:48,923 - OptionsMultiAgent - INFO - Building trainer for IRON CONDOR...
+2025-05-04 22:49:14,200 - OptionsMultiAgent - INFO - Cleaning up old Ray sessions...
+2025-05-04 22:49:14,200 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-32-47_254730_2762
+2025-05-04 22:49:14,202 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-32-46_940535_2762
+2025-05-04 22:49:14,203 - OptionsMultiAgent - INFO - Disk space check: 12.15 GB free of 19.21 GB total
+2025-05-04 22:49:14,203 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 22:49:14,203 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 22:49:14,203 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 22:49:14,203 - utils.data_loader - INFO - Memory usage before loading: 375.86 MB
+2025-05-04 22:49:14,203 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 22:49:14,203 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 22:49:14,213 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 22:49:14,228 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 22:49:14,244 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 22:49:14,258 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 22:49:14,267 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 22:49:14,284 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 22:49:14,294 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 22:49:14,308 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 22:49:14,317 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 22:49:14,332 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 22:49:14,341 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 22:49:14,361 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 22:49:14,371 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 22:49:14,373 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 22:49:14,375 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 22:49:16,247 - utils.data_loader - INFO - JSON parsing completed in 1.87 seconds
+2025-05-04 22:49:16,247 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 22:49:16,247 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 22:49:16,247 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 22:49:16,247 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:49:16,248 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 22:49:16,248 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 22:49:16,248 - utils.data_loader - INFO - Memory usage after loading: 1051.85 MB (increase: 675.99 MB)
+2025-05-04 22:49:16,248 - utils.data_loader - INFO - Data loaded successfully in 2.05 seconds
+2025-05-04 22:49:16,248 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 22:49:16,526 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Data loading completed in 2.33 seconds
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Memory usage: 920.38 MB
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 22:49:16,534 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 22:49:16,535 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 22:49:16,535 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 22:49:16,819 - OptionsMultiAgent - INFO - Memory usage: 920.38 MB
+2025-05-04 22:49:16,819 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 22:49:17,140 - OptionsMultiAgent - ERROR - Ray initialization failed: Cannot include dashboard with missing packages.
+2025-05-04 22:49:17,140 - OptionsMultiAgent - INFO - Trying with backup configuration...
+2025-05-04 22:49:18,741 - OptionsMultiAgent - INFO - Ray initialized with backup configuration
+2025-05-04 22:49:18,741 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 22:49:18,741 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 22:49:18,741 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 22:49:18,741 - OptionsMultiAgent - INFO - Memory usage: 938.25 MB
+2025-05-04 22:49:18,742 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 22:49:18,742 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 22:49:18,742 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 22:49:18,742 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 22:49:18,743 - OptionsMultiAgent - INFO - Config for IRON CONDOR specialist created successfully
+2025-05-04 22:49:18,743 - OptionsMultiAgent - INFO - Creating environment config for BULL PUT specialist...
+2025-05-04 22:49:18,743 - OptionsMultiAgent - INFO - Creating PPO config for BULL PUT specialist...
+2025-05-04 22:49:18,744 - OptionsMultiAgent - INFO - Config for BULL PUT specialist created successfully
+2025-05-04 22:49:18,744 - OptionsMultiAgent - INFO - Training IRON CONDOR specialist...
+2025-05-04 22:49:18,744 - OptionsMultiAgent - INFO - Building trainer for IRON CONDOR...
+2025-05-04 22:51:23,185 - OptionsMultiAgent - INFO - Trainer for IRON CONDOR built successfully
+2025-05-04 22:51:23,185 - OptionsMultiAgent - INFO - Starting IRON CONDOR epoch 0...
+2025-05-04 23:00:59,659 - OptionsMultiAgent - INFO - Cleaning up old Ray sessions...
+2025-05-04 23:00:59,659 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-49-17_150078_3116
+2025-05-04 23:00:59,660 - OptionsMultiAgent - INFO - Removing old Ray session: /home/ubuntu/ray_temp/session_2025-05-04_22-49-16_833160_3116
+2025-05-04 23:00:59,661 - OptionsMultiAgent - INFO - Disk space check: 11.93 GB free of 19.21 GB total
+2025-05-04 23:00:59,661 - OptionsMultiAgent - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json
+2025-05-04 23:00:59,661 - utils.data_loader - INFO - Loading options data from /home/ubuntu/AAPL_all_trading_days_2020-01-01_to_2025-04-09_cached_data_by_date.json...
+2025-05-04 23:00:59,661 - utils.data_loader - INFO - File size: 131.54 MB
+2025-05-04 23:00:59,662 - utils.data_loader - INFO - Memory usage before loading: 375.93 MB
+2025-05-04 23:00:59,662 - utils.data_loader - INFO - Preview of file: {
+"2025-04-10": {
+  "01/02/2020": {"s": "ok", "optionSymbol": ["AAPL200103C00200000", "AAPL200103C00...
+2025-05-04 23:00:59,662 - utils.data_loader - INFO - Large file detected, loading with progress updates...
+2025-05-04 23:00:59,672 - utils.data_loader - INFO - Read 10.00 MB / 131.54 MB (7.60%)
+2025-05-04 23:00:59,686 - utils.data_loader - INFO - Read 20.00 MB / 131.54 MB (15.20%)
+2025-05-04 23:00:59,702 - utils.data_loader - INFO - Read 30.00 MB / 131.54 MB (22.81%)
+2025-05-04 23:00:59,716 - utils.data_loader - INFO - Read 40.00 MB / 131.54 MB (30.41%)
+2025-05-04 23:00:59,725 - utils.data_loader - INFO - Read 50.00 MB / 131.54 MB (38.01%)
+2025-05-04 23:00:59,742 - utils.data_loader - INFO - Read 60.00 MB / 131.54 MB (45.61%)
+2025-05-04 23:00:59,751 - utils.data_loader - INFO - Read 70.00 MB / 131.54 MB (53.22%)
+2025-05-04 23:00:59,765 - utils.data_loader - INFO - Read 80.00 MB / 131.54 MB (60.82%)
+2025-05-04 23:00:59,774 - utils.data_loader - INFO - Read 90.00 MB / 131.54 MB (68.42%)
+2025-05-04 23:00:59,788 - utils.data_loader - INFO - Read 100.00 MB / 131.54 MB (76.02%)
+2025-05-04 23:00:59,797 - utils.data_loader - INFO - Read 110.00 MB / 131.54 MB (83.63%)
+2025-05-04 23:00:59,818 - utils.data_loader - INFO - Read 120.00 MB / 131.54 MB (91.23%)
+2025-05-04 23:00:59,827 - utils.data_loader - INFO - Read 130.00 MB / 131.54 MB (98.83%)
+2025-05-04 23:00:59,829 - utils.data_loader - INFO - Read 131.54 MB / 131.54 MB (100.00%)
+2025-05-04 23:00:59,831 - utils.data_loader - INFO - JSON parsing starting...
+2025-05-04 23:01:01,772 - utils.data_loader - INFO - JSON parsing completed in 1.94 seconds
+2025-05-04 23:01:01,772 - utils.data_loader - INFO - Extracting ticker from filename...
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Data loaded successfully. Type: <class 'dict'>
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Number of dates in data: 1
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Sample dates: ['2025-04-10']
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Structure for 2025-04-10: <class 'dict'>
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Nested structure: ['01/02/2020', '01/03/2020', '01/06/2020', '01/07/2020', '01/08/2020']
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Memory usage after loading: 1051.86 MB (increase: 675.93 MB)
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Data loaded successfully in 2.11 seconds
+2025-05-04 23:01:01,773 - utils.data_loader - INFO - Returning data for ticker: AAPL
+2025-05-04 23:01:02,067 - utils.data_loader - INFO - Garbage collection completed
+2025-05-04 23:01:02,075 - OptionsMultiAgent - INFO - Data loading completed in 2.41 seconds
+2025-05-04 23:01:02,075 - OptionsMultiAgent - INFO - Ticker identified: AAPL
+2025-05-04 23:01:02,075 - OptionsMultiAgent - INFO - Memory usage after data loading:
+2025-05-04 23:01:02,076 - OptionsMultiAgent - INFO - Memory usage: 920.38 MB
+2025-05-04 23:01:02,076 - OptionsMultiAgent - INFO - Data structure: Dictionary with 1 keys
+2025-05-04 23:01:02,076 - OptionsMultiAgent - INFO - Sample dates: ['2025-04-10']
+2025-05-04 23:01:02,076 - OptionsMultiAgent - INFO - Nested structure for 2025-04-10: ['01/02/2020', '01/03/2020', '01/06/2020']
+2025-05-04 23:01:02,076 - OptionsMultiAgent - INFO - Running garbage collection...
+2025-05-04 23:01:02,364 - OptionsMultiAgent - INFO - Memory usage: 920.38 MB
+2025-05-04 23:01:02,364 - OptionsMultiAgent - INFO - Initializing Ray...
+2025-05-04 23:01:02,680 - OptionsMultiAgent - ERROR - Ray initialization failed: Cannot include dashboard with missing packages.
+2025-05-04 23:01:02,680 - OptionsMultiAgent - INFO - Trying with backup configuration...
+2025-05-04 23:01:04,266 - OptionsMultiAgent - INFO - Ray initialized with backup configuration
+2025-05-04 23:01:04,266 - OptionsMultiAgent - INFO - Determining strategies to train...
+2025-05-04 23:01:04,266 - OptionsMultiAgent - INFO - Will train the following strategies: IRON CONDOR, BULL PUT
+2025-05-04 23:01:04,266 - OptionsMultiAgent - INFO - Preparing to train specialists...
+2025-05-04 23:01:04,267 - OptionsMultiAgent - INFO - Memory usage: 938.38 MB
+2025-05-04 23:01:04,267 - OptionsMultiAgent - INFO - Starting specialist training...
+2025-05-04 23:01:04,267 - OptionsMultiAgent - INFO - Beginning specialist agent training...
+2025-05-04 23:01:04,267 - OptionsMultiAgent - INFO - Creating environment config for IRON CONDOR specialist...
+2025-05-04 23:01:04,267 - OptionsMultiAgent - INFO - Creating PPO config for IRON CONDOR specialist...
+2025-05-04 23:01:04,268 - OptionsMultiAgent - INFO - Config for IRON CONDOR specialist created successfully
+2025-05-04 23:01:04,268 - OptionsMultiAgent - INFO - Creating environment config for BULL PUT specialist...
+2025-05-04 23:01:04,268 - OptionsMultiAgent - INFO - Creating PPO config for BULL PUT specialist...
+2025-05-04 23:01:04,269 - OptionsMultiAgent - INFO - Config for BULL PUT specialist created successfully
+2025-05-04 23:01:04,269 - OptionsMultiAgent - INFO - Training IRON CONDOR specialist...
+2025-05-04 23:01:04,269 - OptionsMultiAgent - INFO - Building trainer for IRON CONDOR...
+2025-05-04 23:03:06,124 - OptionsMultiAgent - INFO - Trainer for IRON CONDOR built successfully
+2025-05-04 23:03:06,124 - OptionsMultiAgent - INFO - Starting IRON CONDOR epoch 0...
