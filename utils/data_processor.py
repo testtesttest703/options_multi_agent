@@ -12,7 +12,7 @@ import numpy as np
 import ray
 from ray import tune
 from ray.rllib.algorithms.ppo import PPOConfig
-from ray.rllib.algorithms.callbacks import DefaultCallbacks
+from ray.rllib.callbacks.callbacks import RLlibCallback
 from datetime import datetime
 
 # Import our custom modules
@@ -453,7 +453,7 @@ def extract_options_data(raw_data, trading_day):
 
 
 
-class SpecialistTrainingCallbacks(DefaultCallbacks):
+class SpecialistTrainingCallbacks(RLlibCallback):
     """Callbacks for specialist agent training"""
     
     def on_episode_end(self, *, worker, base_env, policies, episode, env_index, **kwargs):
@@ -464,7 +464,7 @@ class SpecialistTrainingCallbacks(DefaultCallbacks):
             episode.custom_metrics["trades_executed"] = info.get("trades", 0)
             episode.custom_metrics["avg_pop"] = info.get("avg_pop", 0)
 
-class ManagerTrainingCallbacks(DefaultCallbacks):
+class ManagerTrainingCallbacks(RLlibCallback):
     """Callbacks for manager agent training"""
     
     def on_episode_end(self, *, worker, base_env, policies, episode, env_index, **kwargs):

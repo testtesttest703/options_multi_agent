@@ -58,6 +58,7 @@ def load_options_data(file_path):
                 logger.info("JSON parsing starting...")
                 parse_start = time.time()
                 options_data = json.loads(data)
+                options_data = (next(iter(options_data.values())))
                 parse_time = time.time() - parse_start
                 logger.info(f"JSON parsing completed in {parse_time:.2f} seconds")
             else:
